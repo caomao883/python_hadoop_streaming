@@ -3,6 +3,10 @@
 准备环境：请先搭好hadoop集群
 学习网站：运行脚本有错，参照下面脚本
 https://www.cnblogs.com/kaituorensheng/p/3826114.html
+测试脚本：
+[rte@code]$echo "foo foo quux labs foo bar quux" | python mapper.py | sort -k1,1 | python reducer.py
+
+
 
 14.算法调试
 6.  1850
